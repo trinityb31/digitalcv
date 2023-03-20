@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            ul {
+                list-style-type: none;
+                border-style: solid;
+                display: inline-block;
+                padding: 0px;
+                margin-top: 0px;
+            }
+            li a{
+                display: block;
+                width: 100px;
+                text-align: center;
+                text-decoration: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background-color: skyblue;
+                color: azure;
+            }
+            li a:hover{
+                background-color: white;
+                color: black;
+            }
+            li a.current{
+                background-color: white;
+                color: black;
+            }
+            li{ float:left;}
+
+            .header {color: skyblue; text-align: center;}
+            .text {text-align: center;
+            padding: 10px;}
+            
+            .header {
+                padding-top: 1px;
+                padding-bottom: 1px;
+                    background-color: skyblue;
+                    color:white;
+                    font-family: 'Montserrat', sans-serif;}
+
+                    .footer {
+                padding-top: 1px;
+                padding-bottom: 1px;
+                    background-color: skyblue;
+                    color:white;
+                    font-family: 'Montserrat', sans-serif;
+                    text-align: center;
+                }
+
+            .grid{display: grid; 
+            grid-template-columns: 1fr 1fr;
+            align: center;
+            }
+
+            .images{
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="navigation"></div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a class="current" href="personal.html">Personal</a></li>
+            <li><a href="professional.html">Professional</a></li>
+        </ul>
+    </div>
+        
+    <div>
+        <div class="header">
+            <h1>
+                Personal Life
+            </h1>
+        </div>
+        <div class="text">
+            <p>
+                In her free time she enjoys watching TV shows, playing board games with friends, and traveling. 
+                Some of her favorite shows are Park and Recreation, The Good Place, and Survivor.
+                Two of her favorite places to travel are New York and Florida. She can be seen here visiting Walt Disney World in Florida and seeing the Broadway show Freestyle Love Supreme in New York City.
+            </p>
+        </div>
+
+        <div class="images">
+                <img src="NYC.jpeg" height="500" width="400">
+                <img src="Disney.jpeg" height="500" width="400">
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <H3> Contact Information</H3>
+        <p> Email: tbarnett3@elon.edu</p>
+        <p> Phone: 785-221-9436</p>
+
+    </body>
+</html>
